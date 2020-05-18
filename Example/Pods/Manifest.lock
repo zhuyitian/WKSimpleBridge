@@ -1,0 +1,16 @@
+PODS:
+  - WKSimpleBridge (0.1.0)
+
+DEPENDENCIES:
+  - WKSimpleBridge (from `../`)
+
+EXTERNAL SOURCES:
+  WKSimpleBridge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WKSimpleBridge: d41dcb0c5d36349478c2915cba18d4216c835804
+
+PODFILE CHECKSUM: 23fa4cd00e25adb9cdcb85cfe123269244272e4d
+
+COCOAPODS: 1.9.1
