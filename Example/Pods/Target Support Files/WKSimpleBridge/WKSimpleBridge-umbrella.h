@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "WebViewJavascriptBridgeBase.h"
+#import "WebViewJavascriptBridge_JS.h"
+#import "WKWebViewJavascriptBridge.h"
 
 FOUNDATION_EXPORT double WKSimpleBridgeVersionNumber;
 FOUNDATION_EXPORT const unsigned char WKSimpleBridgeVersionString[];

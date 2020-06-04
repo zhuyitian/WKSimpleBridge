@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AF01CC8F32C6A6FDD969BD8708747D0 /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0450634F4A85CC7D1C55104A87712FAF /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		337861A05F69AB9209122A8C181A1FC9 /* Pods-WKSimpleBridge_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6BC5AA42E6E4CE343EF907302F0C68B /* Pods-WKSimpleBridge_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64BD2D21AAE5EBAA7709A78C4A74242E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		382050B40F07FE44393375CEB39D6A28 /* WKSimpleBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B29783AC08D52B70A97ACB52032CBDC5 /* WKSimpleBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C4931F75DA93D5C1BD83C770519C69A /* WKSimpleBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3953BD2B457C148B61BC1844ADE358D6 /* WKSimpleBridge-dummy.m */; };
+		483776539A453A8C5F0B270B6E438B6C /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3E27091CE7FAAFC55CE7BBF63D1D5 /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		860FC7250689212B41A11E3DA811F188 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E08843FF73FBB9AAB5FDCD4EFB529703 /* WebViewJavascriptBridgeBase.m */; };
+		869F3571E72874D73A521ED67B93DCC8 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A42DAC4BD8EE3761C8BF7238DB25CDC0 /* WKWebViewJavascriptBridge.m */; };
 		8B959B0D8C11AE4D032CA53356DAC1C3 /* Pods-WKSimpleBridge_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E620EE7913A41D3248E06AFC371436 /* Pods-WKSimpleBridge_Example-dummy.m */; };
-		919901F70C7B6599D450FDA2A3278EA3 /* WKSimpleBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A55D7C9FAB4B2FD729ADDE5394F043D /* WKSimpleBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7F681082F2476804D3B1536E0BD864B /* Pods-WKSimpleBridge_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FFE505DB74134E72D5D64CCC2C412BA /* Pods-WKSimpleBridge_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C738F08CD37960CD463083EE8F856EC2 /* WKSimpleBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 737A849E18D5BF2E9F752762EF8F223B /* WKSimpleBridge-dummy.m */; };
+		D6BF4A15ABF3F917593A6012C18CE2DE /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9999061F562B6057C5A8EEAA0D9CC91C /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DADCB934EBE867F5C1CD6EA24B73B875 /* Pods-WKSimpleBridge_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C29EC92036FE1DC1BBFB1989F92F87 /* Pods-WKSimpleBridge_Tests-dummy.m */; };
-		E4C92490C58FFD665CB4A69D93688778 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6E79AF3E4688E82A54815F862D53C8 /* ReplaceMe.m */; };
 		E6270927F0375DD60D250414720E1B08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EFA8656DF2C8B2DAEF042AA8154656B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FAF9D8FD21B7E170EC4E48BD300587BB /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 311B72F4574B996B7F7A14AD92643BB8 /* WebViewJavascriptBridge_JS.m */; };
 		FC408A2CF118FAFAE43379E68C2A1E8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,12 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04FC05B0EB9AB3A15834B87F08593D73 /* WKSimpleBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WKSimpleBridge-Info.plist"; sourceTree = "<group>"; };
+		0450634F4A85CC7D1C55104A87712FAF /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge_JS.h; path = WKSimpleBridge/Classes/WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
 		0C44B4C1220B4CD45FE942C9506EEFF1 /* Pods-WKSimpleBridge_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKSimpleBridge_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0E6E79AF3E4688E82A54815F862D53C8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WKSimpleBridge/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		13958E2A40C54628CCC201137003E624 /* WKSimpleBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKSimpleBridge.debug.xcconfig; sourceTree = "<group>"; };
 		16B8712EEBE0A2AA2633792FAC887C80 /* WKSimpleBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WKSimpleBridge.framework; path = WKSimpleBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A55D7C9FAB4B2FD729ADDE5394F043D /* WKSimpleBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKSimpleBridge-umbrella.h"; sourceTree = "<group>"; };
+		1720DF7C066C08894872BAF3DCC12F98 /* WKSimpleBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WKSimpleBridge-Info.plist"; sourceTree = "<group>"; };
+		1F1D4C19055F57DC78EBB17B1FAB89FA /* WKSimpleBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WKSimpleBridge.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2136DE7435570AA8969F5ABB18B80867 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		220FDDFDF40C0E79F5755CEFB8784EAC /* WKSimpleBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKSimpleBridge.release.xcconfig; sourceTree = "<group>"; };
+		311B72F4574B996B7F7A14AD92643BB8 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge_JS.m; path = WKSimpleBridge/Classes/WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3953BD2B457C148B61BC1844ADE358D6 /* WKSimpleBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKSimpleBridge-dummy.m"; sourceTree = "<group>"; };
 		3CF0D55031AC0DD2E900C9312AC31391 /* Pods-WKSimpleBridge_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKSimpleBridge_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3E6F0107A30C95824E0B74FEA94936FF /* Pods-WKSimpleBridge_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKSimpleBridge_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3FFE505DB74134E72D5D64CCC2C412BA /* Pods-WKSimpleBridge_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKSimpleBridge_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -51,41 +61,41 @@
 		4DD52D9D2074C38F31358653D13A6954 /* Pods-WKSimpleBridge_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKSimpleBridge_Tests.modulemap"; sourceTree = "<group>"; };
 		5160AD04D53EBD3C6939850082A2070E /* Pods_WKSimpleBridge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKSimpleBridge_Example.framework; path = "Pods-WKSimpleBridge_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CF1572166D866EAA4329BFCA8A8177 /* Pods-WKSimpleBridge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKSimpleBridge_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5F5245E817D293CFAED178820842056B /* WKSimpleBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WKSimpleBridge.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		67E620EE7913A41D3248E06AFC371436 /* Pods-WKSimpleBridge_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKSimpleBridge_Example-dummy.m"; sourceTree = "<group>"; };
+		681A5F001C00EB08FF50C0B4DD1DC79E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6A3C6DE03D062E12357AA4BEC6950693 /* Pods-WKSimpleBridge_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKSimpleBridge_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		737A849E18D5BF2E9F752762EF8F223B /* WKSimpleBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKSimpleBridge-dummy.m"; sourceTree = "<group>"; };
+		6EF3E27091CE7FAAFC55CE7BBF63D1D5 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKWebViewJavascriptBridge.h; path = WKSimpleBridge/Classes/WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
 		79015AFDD002146402579EB91ACAB821 /* Pods-WKSimpleBridge_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKSimpleBridge_Example.modulemap"; sourceTree = "<group>"; };
-		7F88F7D5A972AA0E837756417365DC69 /* WKSimpleBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WKSimpleBridge.modulemap; sourceTree = "<group>"; };
-		8609635D861DD5FFA37158D682C57E8F /* WKSimpleBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKSimpleBridge.debug.xcconfig; sourceTree = "<group>"; };
+		831E6C22F63B3D800E604B1D9125DBEE /* WKSimpleBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WKSimpleBridge.modulemap; sourceTree = "<group>"; };
+		9999061F562B6057C5A8EEAA0D9CC91C /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = WKSimpleBridge/Classes/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EBC1CFF4F7CE9F54003A5A8E65F4E0C /* Pods-WKSimpleBridge_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKSimpleBridge_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A42DAC4BD8EE3761C8BF7238DB25CDC0 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKWebViewJavascriptBridge.m; path = WKSimpleBridge/Classes/WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		ADA3A99A86130BDC4408A95170933CB6 /* Pods-WKSimpleBridge_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKSimpleBridge_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B25CFB55CEE8C8DEEF3C638E10977095 /* Pods-WKSimpleBridge_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKSimpleBridge_Example-Info.plist"; sourceTree = "<group>"; };
+		B29783AC08D52B70A97ACB52032CBDC5 /* WKSimpleBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKSimpleBridge-umbrella.h"; sourceTree = "<group>"; };
+		B5CA13A9815BAB6CF4F8D4A9C29168F6 /* WKSimpleBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKSimpleBridge-prefix.pch"; sourceTree = "<group>"; };
 		B9B3BA1DF6D901BB8368BE3CDEA94AE3 /* Pods-WKSimpleBridge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKSimpleBridge_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BB6889C0DE2479170345A3E691001335 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C24BCFAC29342F6976877C401C94A836 /* Pods_WKSimpleBridge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKSimpleBridge_Tests.framework; path = "Pods-WKSimpleBridge_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D51D28469F31BD0C77F77C90B51834E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DCD2FB2C50DCA6664C0DDEDE21DE1308 /* Pods-WKSimpleBridge_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKSimpleBridge_Tests-Info.plist"; sourceTree = "<group>"; };
+		E08843FF73FBB9AAB5FDCD4EFB529703 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridgeBase.m; path = WKSimpleBridge/Classes/WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
 		E6BC5AA42E6E4CE343EF907302F0C68B /* Pods-WKSimpleBridge_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKSimpleBridge_Example-umbrella.h"; sourceTree = "<group>"; };
-		F507E00CEECD5AE0E465AF1001123DFC /* WKSimpleBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKSimpleBridge-prefix.pch"; sourceTree = "<group>"; };
-		F94DC30E3ABC99E4E4F852BF077D4A9F /* WKSimpleBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKSimpleBridge.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7FB17E1448C857B6089E943E496F37EB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64BD2D21AAE5EBAA7709A78C4A74242E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		98E00E8F7F32E5EA78479F7E6E0B6977 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FC408A2CF118FAFAE43379E68C2A1E8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2AF32D0C36CDCA81C8696EAAA1ABEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA8656DF2C8B2DAEF042AA8154656B1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +110,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05A9B451AADFFDEC0FD1E14C48F5CD05 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				681A5F001C00EB08FF50C0B4DD1DC79E /* LICENSE */,
+				2136DE7435570AA8969F5ABB18B80867 /* README.md */,
+				1F1D4C19055F57DC78EBB17B1FAB89FA /* WKSimpleBridge.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		5026A98FDB806456197E096B3E8607D0 /* Pods-WKSimpleBridge_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,21 +134,6 @@
 			);
 			name = "Pods-WKSimpleBridge_Tests";
 			path = "Target Support Files/Pods-WKSimpleBridge_Tests";
-			sourceTree = "<group>";
-		};
-		5313782313EDC75CDF7AC0327DF59B03 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7F88F7D5A972AA0E837756417365DC69 /* WKSimpleBridge.modulemap */,
-				737A849E18D5BF2E9F752762EF8F223B /* WKSimpleBridge-dummy.m */,
-				04FC05B0EB9AB3A15834B87F08593D73 /* WKSimpleBridge-Info.plist */,
-				F507E00CEECD5AE0E465AF1001123DFC /* WKSimpleBridge-prefix.pch */,
-				1A55D7C9FAB4B2FD729ADDE5394F043D /* WKSimpleBridge-umbrella.h */,
-				8609635D861DD5FFA37158D682C57E8F /* WKSimpleBridge.debug.xcconfig */,
-				F94DC30E3ABC99E4E4F852BF077D4A9F /* WKSimpleBridge.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WKSimpleBridge";
 			sourceTree = "<group>";
 		};
 		63F37C4C00C9B8FD6B5C7C195E839A51 /* Products */ = {
@@ -158,33 +163,43 @@
 			path = "Target Support Files/Pods-WKSimpleBridge_Example";
 			sourceTree = "<group>";
 		};
-		7B6B4135231EFCDD6B571E6047928EA0 /* Pod */ = {
+		83E2610DBAB8ECFB33B90F18F6A1FB0D /* WKSimpleBridge */ = {
 			isa = PBXGroup;
 			children = (
-				BB6889C0DE2479170345A3E691001335 /* LICENSE */,
-				D51D28469F31BD0C77F77C90B51834E7 /* README.md */,
-				5F5245E817D293CFAED178820842056B /* WKSimpleBridge.podspec */,
+				0450634F4A85CC7D1C55104A87712FAF /* WebViewJavascriptBridge_JS.h */,
+				311B72F4574B996B7F7A14AD92643BB8 /* WebViewJavascriptBridge_JS.m */,
+				9999061F562B6057C5A8EEAA0D9CC91C /* WebViewJavascriptBridgeBase.h */,
+				E08843FF73FBB9AAB5FDCD4EFB529703 /* WebViewJavascriptBridgeBase.m */,
+				6EF3E27091CE7FAAFC55CE7BBF63D1D5 /* WKWebViewJavascriptBridge.h */,
+				A42DAC4BD8EE3761C8BF7238DB25CDC0 /* WKWebViewJavascriptBridge.m */,
+				05A9B451AADFFDEC0FD1E14C48F5CD05 /* Pod */,
+				A6A130C96ADB06E72CC40D89F58111AC /* Support Files */,
 			);
-			name = Pod;
+			name = WKSimpleBridge;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		7F6107E316E46D7C8B68018F847C8716 /* Development Pods */ = {
+		93EDB2A3FBAC5F4577A843BF1E1E89A1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B42CEA19828D5880E4FCF297372710D7 /* WKSimpleBridge */,
+				83E2610DBAB8ECFB33B90F18F6A1FB0D /* WKSimpleBridge */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B42CEA19828D5880E4FCF297372710D7 /* WKSimpleBridge */ = {
+		A6A130C96ADB06E72CC40D89F58111AC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0E6E79AF3E4688E82A54815F862D53C8 /* ReplaceMe.m */,
-				7B6B4135231EFCDD6B571E6047928EA0 /* Pod */,
-				5313782313EDC75CDF7AC0327DF59B03 /* Support Files */,
+				831E6C22F63B3D800E604B1D9125DBEE /* WKSimpleBridge.modulemap */,
+				3953BD2B457C148B61BC1844ADE358D6 /* WKSimpleBridge-dummy.m */,
+				1720DF7C066C08894872BAF3DCC12F98 /* WKSimpleBridge-Info.plist */,
+				B5CA13A9815BAB6CF4F8D4A9C29168F6 /* WKSimpleBridge-prefix.pch */,
+				B29783AC08D52B70A97ACB52032CBDC5 /* WKSimpleBridge-umbrella.h */,
+				13958E2A40C54628CCC201137003E624 /* WKSimpleBridge.debug.xcconfig */,
+				220FDDFDF40C0E79F5755CEFB8784EAC /* WKSimpleBridge.release.xcconfig */,
 			);
-			name = WKSimpleBridge;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WKSimpleBridge";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -208,7 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7F6107E316E46D7C8B68018F847C8716 /* Development Pods */,
+				93EDB2A3FBAC5F4577A843BF1E1E89A1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				63F37C4C00C9B8FD6B5C7C195E839A51 /* Products */,
 				C973D7278D954C87148922655C76735E /* Targets Support Files */,
@@ -226,11 +241,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		791F7E29A9E25A2C806275A66216C10B /* Headers */ = {
+		7230E142E5C2693C36AB3975838DE410 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				919901F70C7B6599D450FDA2A3278EA3 /* WKSimpleBridge-umbrella.h in Headers */,
+				0AF01CC8F32C6A6FDD969BD8708747D0 /* WebViewJavascriptBridge_JS.h in Headers */,
+				D6BF4A15ABF3F917593A6012C18CE2DE /* WebViewJavascriptBridgeBase.h in Headers */,
+				382050B40F07FE44393375CEB39D6A28 /* WKSimpleBridge-umbrella.h in Headers */,
+				483776539A453A8C5F0B270B6E438B6C /* WKWebViewJavascriptBridge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +311,12 @@
 		};
 		419A4E1B7F14FFFA519465DDE5783724 /* WKSimpleBridge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89AF6BABCD1D12D4A8508B5A8C2DF094 /* Build configuration list for PBXNativeTarget "WKSimpleBridge" */;
+			buildConfigurationList = DFBF836E0C758D8FAB7AD8160B74B426 /* Build configuration list for PBXNativeTarget "WKSimpleBridge" */;
 			buildPhases = (
-				791F7E29A9E25A2C806275A66216C10B /* Headers */,
-				33EEC920C22BAD18C7E4C23266A3E205 /* Sources */,
-				7FB17E1448C857B6089E943E496F37EB /* Frameworks */,
-				54B475F2EF885EAE7768556C4AF5D720 /* Resources */,
+				7230E142E5C2693C36AB3975838DE410 /* Headers */,
+				CAB941D8811090285B4BAB70151A2834 /* Sources */,
+				B2AF32D0C36CDCA81C8696EAAA1ABEBE /* Frameworks */,
+				B8EFA031D4E85933C01C3B8E7DEC62CD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,14 +357,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54B475F2EF885EAE7768556C4AF5D720 /* Resources */ = {
+		64F0E545452C216AC3E8A1DBE1C5F0A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64F0E545452C216AC3E8A1DBE1C5F0A0 /* Resources */ = {
+		B8EFA031D4E85933C01C3B8E7DEC62CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,12 +389,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33EEC920C22BAD18C7E4C23266A3E205 /* Sources */ = {
+		CAB941D8811090285B4BAB70151A2834 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C92490C58FFD665CB4A69D93688778 /* ReplaceMe.m in Sources */,
-				C738F08CD37960CD463083EE8F856EC2 /* WKSimpleBridge-dummy.m in Sources */,
+				FAF9D8FD21B7E170EC4E48BD300587BB /* WebViewJavascriptBridge_JS.m in Sources */,
+				860FC7250689212B41A11E3DA811F188 /* WebViewJavascriptBridgeBase.m in Sources */,
+				3C4931F75DA93D5C1BD83C770519C69A /* WKSimpleBridge-dummy.m in Sources */,
+				869F3571E72874D73A521ED67B93DCC8 /* WKWebViewJavascriptBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +453,71 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		06A2971200D378B695F7C1753728FD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13958E2A40C54628CCC201137003E624 /* WKSimpleBridge.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKSimpleBridge/WKSimpleBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKSimpleBridge/WKSimpleBridge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WKSimpleBridge/WKSimpleBridge.modulemap";
+				PRODUCT_MODULE_NAME = WKSimpleBridge;
+				PRODUCT_NAME = WKSimpleBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3236293E283EBA7007A2A676B8CA437D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220FDDFDF40C0E79F5755CEFB8784EAC /* WKSimpleBridge.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKSimpleBridge/WKSimpleBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKSimpleBridge/WKSimpleBridge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WKSimpleBridge/WKSimpleBridge.modulemap";
+				PRODUCT_MODULE_NAME = WKSimpleBridge;
+				PRODUCT_NAME = WKSimpleBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -499,37 +584,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		529A3FDC528D75A5F953E9690A2F161C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8609635D861DD5FFA37158D682C57E8F /* WKSimpleBridge.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WKSimpleBridge/WKSimpleBridge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WKSimpleBridge/WKSimpleBridge-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WKSimpleBridge/WKSimpleBridge.modulemap";
-				PRODUCT_MODULE_NAME = WKSimpleBridge;
-				PRODUCT_NAME = WKSimpleBridge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		5F54296A4CDAEBA899B1ACF23F71373B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -661,38 +715,6 @@
 			};
 			name = Debug;
 		};
-		BE3CD0BF3377C221091FE61296940A06 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F94DC30E3ABC99E4E4F852BF077D4A9F /* WKSimpleBridge.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WKSimpleBridge/WKSimpleBridge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WKSimpleBridge/WKSimpleBridge-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WKSimpleBridge/WKSimpleBridge.modulemap";
-				PRODUCT_MODULE_NAME = WKSimpleBridge;
-				PRODUCT_NAME = WKSimpleBridge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		D0F9B404E8CD945E7FA6031550D9DEB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E6F0107A30C95824E0B74FEA94936FF /* Pods-WKSimpleBridge_Tests.release.xcconfig */;
@@ -748,20 +770,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89AF6BABCD1D12D4A8508B5A8C2DF094 /* Build configuration list for PBXNativeTarget "WKSimpleBridge" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				529A3FDC528D75A5F953E9690A2F161C /* Debug */,
-				BE3CD0BF3377C221091FE61296940A06 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D52D909EB7C811B63EAF250100234AF8 /* Build configuration list for PBXNativeTarget "Pods-WKSimpleBridge_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F54296A4CDAEBA899B1ACF23F71373B /* Debug */,
 				D0F9B404E8CD945E7FA6031550D9DEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBF836E0C758D8FAB7AD8160B74B426 /* Build configuration list for PBXNativeTarget "WKSimpleBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06A2971200D378B695F7C1753728FD29 /* Debug */,
+				3236293E283EBA7007A2A676B8CA437D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

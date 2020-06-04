@@ -1,5 +1,5 @@
 PODS:
-  - WKSimpleBridge (0.1.0)
+  - WKSimpleBridge (0.0.2)
 
 DEPENDENCIES:
   - WKSimpleBridge (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WKSimpleBridge: d41dcb0c5d36349478c2915cba18d4216c835804
+  WKSimpleBridge: a562808b1e02c2b6950520432813f076c2b69671
 
 PODFILE CHECKSUM: 23fa4cd00e25adb9cdcb85cfe123269244272e4d
 
